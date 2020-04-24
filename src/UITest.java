@@ -69,17 +69,11 @@ public class UITest extends JFrame {
         lblNewLabel.setBounds(670, 206, 305, 53);
         getContentPane().add(lblNewLabel);
         
-        JLabel lblNewLabel_1 = new JLabel("Members: Lucy Gao, Anthony Chin,");
+        JLabel lblNewLabel_1 = new JLabel("Members: Lucy Gao, Anthony Chin");
         lblNewLabel_1.setForeground(Color.WHITE);
         lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 20));
         lblNewLabel_1.setBounds(670, 236, 327, 53);
         getContentPane().add(lblNewLabel_1);
-        
-        JLabel lblNewLabel_2 = new JLabel(" Joshua Trost, Phoenix Dimagiba");
-        lblNewLabel_2.setForeground(Color.WHITE);
-        lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 20));
-        lblNewLabel_2.setBounds(670, 269, 327, 39);
-        getContentPane().add(lblNewLabel_2);
         
         JScrollPane scrollPane = new JScrollPane();
         scrollPane.setBounds(140, 262, 284, 218);
